@@ -118,15 +118,19 @@ export default function Deals() {
   return (
     <div className="deals-page">
       <div className="deals-hero">
-        <h1>Flash Deals ⚡</h1>
+        <h1>Flash Deals</h1>
         <p>Grab them before the timer runs out!</p>
       </div>
 
       <div className="deals-grid">
         {filteredDeals.length === 0 ? (
           <div className="no-deals">
-             <h3>No active deals found.</h3>
-             <p>{searchQuery ? "Try a different search term." : "Check back later for exciting offers from our vendors!"}</p>
+            <h3>No Flash Deals Right Now</h3>
+            <p>New deals are coming soon. Stay tuned. </p>
+
+            <button onClick={() => navigate("/products")}>
+              Browse Products
+            </button>
           </div>
         ) : (
           filteredDeals.map(deal => (

@@ -2,7 +2,7 @@
 
 ## Overview
 
-DealDrop: Hyperlocal Flash Sale Platform
+DealsHub: Hyperlocal Flash Sale Platform
 
 Local retailers often face challenges in clearing overstocked or near-expiry inventory due to limited digital presence and visibility. At the same time, nearby customers remain unaware of these time-sensitive deals, missing out on potential savings. The lack of effective discovery platforms further widens the gap between supply and demand at a hyperlocal level.
 
